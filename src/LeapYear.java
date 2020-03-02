@@ -1,5 +1,5 @@
 public class LeapYear {
-    public static boolean Leapyear(int year) {
+    public static boolean isLeapYear(int year) {
         if(year < 1 || year > 9999) {
             return false;
         } else {

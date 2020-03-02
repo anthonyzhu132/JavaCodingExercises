@@ -7,6 +7,6 @@ public class Main {
 
         MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
         BarkingDog.shouldWakeUp(true, 9);
-        LeapYear.Leapyear(2020);
+        LeapYear.isLeapYear(2020);
     }
 }
