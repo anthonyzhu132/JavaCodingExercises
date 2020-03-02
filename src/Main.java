@@ -6,5 +6,6 @@ public class Main {
 //        SpeedConverter.printConversion(10.5);
 
         MegaBytesConverter.printMegaBytesAndKiloBytes(2500);
+        BarkingDog.shouldWakeUp(true, 9);
     }
 }
