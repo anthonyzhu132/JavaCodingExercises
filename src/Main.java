@@ -1,11 +1,8 @@
 public class Main {
 
-    public static void main(String[] args) {
-        calculateScore("Tim", 900);
-    }
+    // Use main class to call for other methods that are in the directory
 
-    public static int calculateScore(String playerName, int score) {
-        System.out.println("Player " + playerName + " scored " + score + " points");
-        return score * 1000;
+    public static void main(String[] args) {
+        FeetAndInchesToCentimeters.calcFeetAndInchesToCentimeters(-1, 7);
     }
 }
