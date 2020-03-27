@@ -7,7 +7,8 @@ public class Main {
         //System.out.println(getDuration.getDurationString(3945L));
         //System.out.println(AreaCalculator.area(5.0));
         //System.out.println(AreaCalculator.area(5, 4));
-        MinutesToYearsDaysCalculator.printYearsAndDays(525600);
+        //MinutesToYearsDaysCalculator.printYearsAndDays(525600);
+        PlayingCat.isCatPlaying(true, 25);
 
     }
 }
