@@ -4,6 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
         //FeetAndInchesToCentimeters.calcFeetAndInchesToCentimeters(157);
-        System.out.println(getDuration.getDurationString(65, 45));
+        System.out.println(getDuration.getDurationString(3945L));
     }
 }

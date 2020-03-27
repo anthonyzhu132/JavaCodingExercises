@@ -9,7 +9,7 @@ public class getDuration {
         return hours + "h " +remainingMinutes + "m " + seconds + "s";
     }
 
-    private static String getDurationString (long seconds) {
+    public static String getDurationString (long seconds) {
         if(seconds < 0) {
             return "invalid values for seconds";
         }
@@ -17,6 +17,6 @@ public class getDuration {
         long minutes = seconds / 60;
         long remainingSeconds = seconds % 60;
 
-        
+        return getDurationString(minutes, remainingSeconds);
     }
 }
